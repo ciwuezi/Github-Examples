@@ -26,7 +26,7 @@ jobs:
       - name: Display Greeting
         run: |
           echo "${{ inputs.greeting }}, ${{ inputs.name }}!"
-      - name: Display File Content
+      - name: Display File Contents
         run: |
           echo "Contents of the file:"
           cat ./decoded_file.txt
